@@ -1,12 +1,27 @@
 .headheader {
     font-family: 'Montserrat',sans-serif;
     color:#c7522a;
-    text-align: left;
+    text-align: center;
+}
+
+.navigation {
+    background-color: lightblue;
+    text-align: center;
+}
+
+.myimage{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pcenter{
+    text-align: center;
 }
 
 .headnav {
     color:#008585;
-    text-align: left;
+    text-align: center;
 }
 
 .headgo {
