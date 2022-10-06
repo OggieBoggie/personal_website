@@ -4,6 +4,11 @@
     text-align: center;
 }
 
+.coursehead {
+    font-family: 'Montserrat',sans-serif;
+    color:#c7522a;
+}
+
 .navigation {
     background-color: lightblue;
     text-align: center;
