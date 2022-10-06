@@ -1,21 +1,26 @@
-h1 {
+.headheader {
+    font-family: 'Montserrat',sans-serif;
     color:#c7522a;
+    text-align: left;
 }
 
-h2 {
+.headnav {
     color:#008585;
     text-align: left;
 }
 
-p {
+.headgo {
+    color:#e12729;
+}
+
+body {
     color:#008585;
+    font-family: 'Roboto', sans-serif;
+    background-color:#fbf2c4;
     text-align: left;
 }
 
 li {
     color:#c7522a;
     text-align: left;
-}
-body {
-    background-color:#fbf2c4;
 }
