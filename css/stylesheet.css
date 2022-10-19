@@ -5,8 +5,12 @@
 }
 
 .coursehead {
-    font-family: 'Montserrat',sans-serif;
     color:#c7522a;
+}
+
+.schoolhead {
+    color: #c7522a;
+    text-align: center;
 }
 
 .navigation {
