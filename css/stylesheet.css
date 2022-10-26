@@ -1,9 +1,19 @@
-.headheader {
-    font-family: 'Montserrat',sans-serif;
-    color:#c7522a;
-    text-align: center;
+body {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
 }
 
+.headheader {
+    font-family: 'Montserrat',sans-serif;
+    color:#334259;
+    text-align: center;
+    display: flex;
+}
+header {
+    background-color: #A6CAD4;
+    grid-column: 1/4;
+}
+/* }
 .coursehead {
     color:#c7522a;
 }
@@ -47,4 +57,4 @@ body {
 li {
     color:#c7522a;
     text-align: left;
-}
+} */
