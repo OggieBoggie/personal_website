@@ -5,16 +5,18 @@ body {
 }
 
 .headheader {
-    font-family: 'Montserrat',sans-serif;
-    color:#334259;
+    font-family: 'Montserrat', sans-serif;
+    color: #334259;
     display: flex;
     justify-content: center;
 }
-.list-nav{
+
+.list-nav {
     display: flex;
     justify-content: center;
 }
-.list-nav li{
+
+.list-nav li {
     margin: 10px;
     list-style-type: none;
 }
@@ -23,6 +25,17 @@ header {
     background-color: #A6CAD4;
     grid-column: 1/4;
 }
+
+footer {
+    background-color: #A6CAD4;
+    grid-column: 1/4;
+}
+
+.foot {
+    display: flex;
+    justify-content: center;
+}
+
 /* }
 .coursehead {
     color:#c7522a;
