@@ -14,7 +14,7 @@ body {
 .list-nav {
     display: flex;
     justify-content: center;
-    
+
 }
 
 .list-nav li {
@@ -36,6 +36,20 @@ footer {
     display: flex;
     justify-content: center;
 }
+
+.foot p {
+    margin: 0px;
+}
+
+header h1 {
+    margin: 0px;
+}
+
+header ul{
+    margin: 0px;
+}
+
+
 
 /* }
 .coursehead {
