@@ -1,15 +1,19 @@
 body {
     background-color: #edddd4;
     display: grid;
-    grid-template-columns: 2fr 1fr;
 }
 
 main {
     margin: 0px;
 }
-div li{
-    border: 2px solid black;
+.black{
+    color:black;
 }
+
+.gap{
+    margin-left: 400px;
+}
+
 .headheader {
     font-family: 'Montserrat', sans-serif;
     color: #334259;

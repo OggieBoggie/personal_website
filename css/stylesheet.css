@@ -1,14 +1,14 @@
 body {
     background-color: #edddd4;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
 }
 
 main {
     margin: 0px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
 }
 
-.section img{
+.section img {
     width: 490px;
     height: 367px;
     display: flex;
@@ -56,7 +56,7 @@ header h1 {
     margin: 0px;
 }
 
-header ul{
+header ul {
     margin: 0px;
 }
 
