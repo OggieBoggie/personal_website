@@ -1,0 +1,56 @@
+body {
+    background-color: #edddd4;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+main {
+    margin: 0px;
+}
+div li{
+    border: 2px solid black;
+}
+.headheader {
+    font-family: 'Montserrat', sans-serif;
+    color: #334259;
+    display: flex;
+    justify-content: center;
+}
+
+.list-nav {
+    display: flex;
+    justify-content: center;
+
+}
+
+.list-nav li {
+    margin: 10px;
+    list-style-type: none;
+}
+
+header {
+    background-color: #A6CAD4;
+    grid-column: 1/4;
+}
+
+footer {
+    background-color: #A6CAD4;
+    grid-column: 1/4;
+}
+
+.foot {
+    display: flex;
+    justify-content: center;
+}
+
+.foot p {
+    margin: 0px;
+}
+
+header h1 {
+    margin: 0px;
+}
+
+header ul{
+    margin: 0px;
+}
