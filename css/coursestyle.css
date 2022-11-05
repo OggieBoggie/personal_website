@@ -79,6 +79,17 @@ ul li {
 
     .gap {
         margin-left: 400px;
+        order: 1;
+    }
+
+    .two{
+        order: 2;
+        flex-basis: 100%;
+    }
+
+    .paracontainer {
+        display: flex;
+        flex-wrap: wrap;
     }
 
     hr {
