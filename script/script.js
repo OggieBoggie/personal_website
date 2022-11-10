@@ -16,20 +16,25 @@ courseList[2] = {
 };
 
 let finish = false;
-let course_code;
+let input;
 
 while(!finish){
-    course_code = prompt("Enter a 4-digit course code");
-    if(!isNaN(course_code) && course_code.length == 4)
+    input = prompt("Enter a 4-digit course code");
+    if(!isNaN(input) && input.length == 4)
         done = true;
 }
 
 let found = false;
 
-for(let items of courseList) {
-    if(courseList[i].code.includes(course_code)) {
+for(let i=0; i < courseList.length; i++) {
+    if(courseList[i].code.includes(input)) {
         console.log(`Yes I am taking the course: ${courseList[i].code} - ${courseList[i].name}`);
         found = true;
         break;
     }
+}
+
+if(!found){
+	courseList.push({code: input, name: null})
+	console.log("Course code "+input+" successfully added.");
 }
