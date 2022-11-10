@@ -15,10 +15,10 @@ courseList[2] = {
     name: "Database Systems"
 };
 
-let finish = false;
+let done = false;
 let input;
 
-while(!finish){
+while(!done){
     input = prompt("Enter a 4-digit course code");
     if(!isNaN(input) && input.length == 4)
         done = true;
@@ -36,5 +36,5 @@ for(let i=0; i < courseList.length; i++) {
 
 if(!found){
 	courseList.push({code: input, name: null})
-	console.log("Course code "+input+" successfully added.");
+	console.log("Course code "+input+" has been logged.");
 }
