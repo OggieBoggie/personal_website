@@ -15,4 +15,12 @@ courseList[2] = {
     name: "Database Systems"
 };
 
+let finish = false;
+let code;
+
+while(!finish){
+    code = prompt("Enter a 4-digit course code");
+    if(!isNaN(code) && code.length == 4)
+        done = true;
+}
 
